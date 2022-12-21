@@ -14,7 +14,7 @@ const {
   RtmRole,
 } = require("agora-access-token");
 
-app.set("port", 3000);
+app.set("port",  process.env.PORT);
 
 var server = http.createServer(app);
 
